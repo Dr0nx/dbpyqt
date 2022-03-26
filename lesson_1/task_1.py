@@ -40,13 +40,13 @@ def ping(ipv4, result, get_list):
     response = subprocess.Popen(['ping', param, '1', '-c', '1', str(ipv4)],
                                 stdout=subprocess.PIPE)
     if response.wait() == 0:
-        result['Доступные узлы'].append(f'{ipv4}')
+        result['Доступные узлы'].append(str(ipv4))
         res = f'{ipv4} - Узел доступен'
         if not get_list:  # если результаты не надо добавлять в словарь, значит отображаем
             print(res)
         return res
     else:
-        result['Недоступные узлы'].append(f'{ipv4}')
+        result['Недоступные узлы'].append(str(ipv4))
         res = f'{str(ipv4)} - Узел недоступен'
         if not get_list:  # если результаты не надо добавлять в словарь, значит отображаем
             print(res)
