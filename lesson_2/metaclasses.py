@@ -101,6 +101,8 @@ class ClientMaker(type):
                     if i.opname == 'LOAD_GLOBAL':
                         if i.argval not in methods:
                             methods.append(i.argval)
+        print(20 * '-', 'methods', 20 * '-')
+        pprint(methods)
         # Если обнаружено использование недопустимого метода accept, listen, socket бросаем исключение:
         for command in ('accept', 'listen', 'socket'):
             if command in methods:
