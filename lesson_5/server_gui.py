@@ -144,7 +144,7 @@ class ConfigWindow(QDialog):
         self.db_path = QLineEdit(self)
         self.db_path.setFixedSize(250, 20)
         self.db_path.move(10, 30)
-        self.db_path.setReadOnly(True)
+        self.db_path.setReadOnly(False)
 
         # Кнопка выбора пути.
         self.db_path_select = QPushButton('Обзор...', self)
