@@ -23,12 +23,12 @@ class DelContactDialog(QDialog):
         self.setModal(True)
 
         self.selector_label = QLabel('Выберите контакт для удаления:', self)
-        self.selector_label.setFixedSize(200, 20)
+        self.selector_label.setFixedSize(220, 20)
         self.selector_label.move(10, 0)
 
         self.selector = QComboBox(self)
         self.selector.setFixedSize(200, 20)
-        self.selector.move(10, 30)
+        self.selector.move(20, 30)
         # заполнитель контактов для удаления
         self.selector.addItems(sorted(self.database.get_contacts()))
 
