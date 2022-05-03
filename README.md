@@ -9,3 +9,4 @@
 [Урок 6. Безопасность ](https://github.com/Dr0nx/dbpyqt/tree/lesson_6/lesson_6/) <br>
 [Урок 7. PEP-8, подготовка документации ](https://github.com/Dr0nx/dbpyqt/tree/lesson_7/lesson_7/) <br>
 [Урок 8. Подготовка дистрибутива](https://github.com/Dr0nx/dbpyqt/tree/lesson_8/lesson_8/) <br>
+[Курсовая работа](https://github.com/Dr0nx/dbpyqt/tree/coursework/coursework/) <br>
