@@ -1,0 +1,9 @@
+greenlet==1.1.2
+py-mess-client-dr0n==0.0.1
+py-mess-server-dr0n==0.0.1
+pycryptodome==3.14.1
+pycryptodomex==3.14.1
+PyQt5==5.15.6
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.10.1
+SQLAlchemy==1.4.36
